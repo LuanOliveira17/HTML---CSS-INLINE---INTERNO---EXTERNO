@@ -1,0 +1,137 @@
+body {
+    background-color: #1a237e;
+    color: #e3e6f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #7986cb;
+    padding: 25px;
+    text-align: center;
+    border: 2px solid #5c6bc0;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    color: #fff;
+}
+
+header h1 {
+    color: #ffffff;
+    text-shadow: 1px 1px 2px #333;
+}
+
+header p {
+    color: #f1f2f6;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+header a {
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #e3e6f5;
+    border-radius: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid #aeb8d9;
+    color: #333;
+}
+
+main h2 {
+    text-align: center;
+    color: #1a237e;
+    border-bottom: 2px solid #7986cb;
+    padding-bottom: 10px;
+}
+
+main h3, main h4 {
+    color: #1a237e;
+}
+
+.h4-main-sub {
+    color: #5c6bc0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin: 20px 0;
+}
+
+table th {
+    background-color: #5c6bc0;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+table tr:nth-child(even) {
+    background-color: #c0c6e0;
+}
+
+table tr:nth-child(odd) {
+    background-color: #d1d9f2;
+}
+
+table td {
+    padding: 8px;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #7986cb;
+    margin: 20px 0;
+}
+
+textarea {
+    background-color: #e8eaf6;
+    border: 1px solid #3f51b5;
+    padding: 10px;
+    font-family: monospace;
+    color: #283593;
+    border-radius: 5px;
+}
+
+.exemplo {
+    color: #1a237e;
+}
+
+.resultado {
+    color: #d32f2f;
+}
+
+.atencao-box {
+    background-color: #ffeb3b;
+    border: 1px solid #ffc107;
+    padding: 10px;
+    font-family: monospace;
+    color: #333;
+    border-radius: 5px;
+}
+
+footer p {
+    margin: 0;
+}

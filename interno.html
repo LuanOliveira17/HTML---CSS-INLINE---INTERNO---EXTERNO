@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Trabalho HTML - CSS" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho HTML - CSS Interno</title>
+    <meta name="author" content="Luan Lespico de Oliveira">
+    <meta name="description" content="Pagina criada para praticar os conceitos basicos de HTML e CSS. Visando a prova que será realizada no dia 19/09/2025 para o curso do 1º Semestre de Engenharia de Software - Catolica de Santa Catarina">
+    <meta name="keywords" content="HTML, CSS, Trabalho, Prova, Engenharia de Software, Catolica de Santa Catarina">
+    <meta name="viewport" content="width=device-width, initial-s
+
+
+cale=1.0">
+
+    <style>
+        body {
+            background-color: #1a237e;
+            color: #e3e6f5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, footer {
+            background-color: #7986cb;
+            padding: 25px;
+            text-align: center;
+            border: 2px solid #5c6bc0;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            margin-top: 20px;
+            color: #fff;
+        }
+
+        header h1 {
+            color: #ffffff;
+            text-shadow: 1px 1px 2px #333;
+        }
+
+        header p {
+            color: #f1f2f6;
+            font-size: 1.1rem;
+            line-height: 1.5;
+        }
+
+        header img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #ccc;
+        }
+
+        header a {
+            color: #ff0000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            margin: 0 10px;
+            padding: 20px;
+            background-color: #e3e6f5;
+            border-radius: 15px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border: 2px solid #aeb8d9;
+            color: #333;
+        }
+
+        main h2 {
+            text-align: center;
+            color: #1a237e;
+            border-bottom: 2px solid #7986cb;
+            padding-bottom: 10px;
+        }
+        
+        main h3, main h4 {
+            color: #1a237e;
+        }
+
+        .h4-main-sub {
+            color: #5c6bc0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            margin: 20px 0;
+        }
+
+        table th {
+            background-color: #5c6bc0;
+            text-align: center;
+            color: white;
+            padding: 10px;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #c0c6e0;
+        }
+
+        table tr:nth-child(odd) {
+            background-color: #d1d9f2;
+        }
+
+        table td {
+            padding: 8px;
+            text-align: center;
+        }
+
+        hr {
+            border: 1px solid #7986cb;
+            margin: 20px 0;
+        }
+
+        textarea {
+            background-color: #e8eaf6;
+            border: 1px solid #3f51b5;
+            padding: 10px;
+            font-family: monospace;
+            color: #283593;
+            border-radius: 5px;
+        }
+
+        .exemplo {
+            color: #1a237e;
+        }
+
+        .resultado {
+            color: #d32f2f;
+        }
+
+        .atencao-box {
+            background-color: #ffeb3b;
+            border: 1px solid #ffc107;
+            padding: 10px;
+            font-family: monospace;
+            color: #333;
+            border-radius: 5px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Trabalho HTML - CSS Interno</h1>
+        <p> Aluno: Luan Lespico de Oliveira <br>
+            Pagina criada para praticar os conceitos basicos de HTML e CSS. Visando a prova que será realizada no dia 19/09/2025 para o curso do 1º Semestre de Engenharia de Software - Catolica de Santa Catarina<br>
+            Dica de vídeo para aprendizado de HTML e CSS: <a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n"> Clique para ver o vídeo no YouTube</a>
+        </p>
+        <img src="R.png" alt="Imagem de exemplo">
+    </header>
+
+    <main>
+        <h2> <u>Básico sobre a rede de internet</u> </h2>
+        <h3> O que é DNS:</h3>
+        <p> O DNS é como a agenda telefônica da internet. Ele traduz nomes de domínio (como google.com) para os endereços IP correspondentes (como 142.250.190.46), que são os números que os computadores usam para se comunicar e encontrar os sites na rede.</p>
+        <h3> O que é IP:</h3>
+        <P> O IP é o endereço de identificação de dispositivos conectados a uma rede.</P>
+        <h3> O que é um domínio:</h3>
+        <p> O domínio é o endereço que as pessoas usam para encontrar um site na internet, por exemplo: Philco.com.br. TLD é a parte final que indica o tipo ou a origem do site (.com.br, .com, .net, .org, etc.).</p>
+        <h3> O que é URL:</h3>
+        <p> A URL é o endereço completo que você digita no navegador para acessar um recurso específico na internet, como uma página web, imagem ou vídeo. Ela inclui o protocolo (http:// ou https://), o domínio (como www.exemplo.com) e o caminho para o recurso (como /pagina1.html).</p>
+        <h3>O que é um servidor:</h3>
+        <p> Um servidor é um computador ou sistema que fornece serviços, dados ou recursos para outros computadores, conhecidos como clientes, através de uma rede. Ele armazena, processa e gerencia informações, permitindo que os usuários acessem sites, aplicativos e arquivos remotamente.</p>
+        <hr>
+        
+        <h2> <u>O que é HTML</u> </h2>
+        
+        <h3> Inicio </h3>
+        <p> O HTML não é uma linguagem de programação, mas sim uma linguagem de marcação. Sua única função é estruturar o conteúdo da web, sem ter a lógica de uma linguagem de programação (como variáveis ou laços). <br>
+        <ul>
+            <li>Utiliza tags para organizar e apresentar conteúdo em páginas da web.</li>
+            <li>Não inclui funcionalidades como variáveis, loops ou condicionais, típicas de linguagens de programação.</li>
+        </ul>
+        <hr>
+
+        <h3> Versoes HTML: </h3>
+        <table border="1">
+            <tr>
+                <th>Versão</th>
+                <th>Lançamento</th>
+                <th>Doctype</th>
+            </tr>
+            <tr>
+                <td>HTML 1.0</td>
+                <td>1993</td>
+                <td>N/a</td>
+            </tr>
+            <tr>
+                <td>HTML 2.0</td>
+                <td>1995</td>
+                <td>N/a</td>
+            </tr>
+            <tr>
+                <td>HTML 3.2</td>
+                <td>1997</td>
+                <td>N/a</td>
+            </tr>
+            <tr>
+                <td>HTML 4.0</td>
+                <td>1997</td>
+                <td>!DOCTYPE HTML PUBLIC -//W3C//...></td>
+            </tr>
+            <tr>
+                <td>HTML 4.01</td>
+                <td>1999</td>
+                <td>!DOCTYPE HTML PUBLIC -//W3C//...></td>
+            </tr>
+            <tr>
+                <td>XHTML 1.0</td>
+                <td>2000</td>
+                <td>!DOCTYPE html PUBLIC -//W3C//...></td>
+            </tr>
+            <tr>
+                <td>HTML 5</td>
+                <td>2014</td>
+                <td>!DOCTYPE html</td>
+            </tr>
+            <tr>
+                <td>HTML LivingStandard</td>
+                <td>2014 (Em diante)</td>
+                <td>!DOCTYPE html</td>
+            </tr>
+        </table>
+        <hr>
+        
+        <h3> Utilização das tags header, main e footer:</h3>
+        <p> As tags <strong>&ltheader&gt</strong>, <strong>&ltmain&gt</strong> e <strong>&ltfooter&gt</strong> são elementos semânticos em HTML5 que ajudam a estruturar o conteúdo de uma página web de forma clara e organizada.</p>
+
+        <ul>
+            <li><strong>&ltheader&gt;</strong>: Representa o cabeçalho da página ou de uma seção. Geralmente contém o título, logotipo, menu de navegação e outros elementos introdutórios.</li>
+        </ul>
+
+        <p class="exemplo"> <U><strong>Exemplo:</strong></U></p>
+        <textarea rows="9" cols="70" readonly>
+&ltheader&gt
+    &lth1&gtTítulo da Página&lt/h1&gt
+    &ltnav&gt
+        &lta href="#home"&gtHome&lt/a&gt
+        &lta href="#sobre"&gtSobre&lt/a&gt
+        &lta href="#contato"&gtContato&lt/a&gt
+    &lt/nav&gt
+&lt/header&gt
+        </textarea>
+
+        <ul>
+            <li><strong>&ltmain&gt;</strong>: Representa o conteúdo principal da página. Deve conter o conteúdo único e central, excluindo cabeçalhos, rodapés e barras laterais.</li>
+        </ul>
+
+        <p class="exemplo"> <U><strong>Exemplo:</strong></U></p>
+        <textarea rows="6" cols="70" readonly>
+&ltmain&gt
+    &lth2&gtBem-vindo ao Meu Site&lt/h2&gt
+    &ltp&gtAqui está o conteúdo principal da página.&lt/p&gt
+&lt/main&gt
+        </textarea>
+
+        <ul>
+            <li><strong>&ltfooter&gt;</strong>: Representa o rodapé da página ou de uma seção. Geralmente contém informações de contato, direitos autorais, links adicionais e outros detalhes finais.</li>
+        </ul>
+
+        <p class="exemplo"> <U><strong>Exemplo:</strong></U></p>
+        <textarea rows="6" cols="70" readonly>
+&ltfooter&gt
+    &ltp&gt© 2025. Todos os direitos reservados.&lt/p&gt
+&lt/footer&gt
+        </textarea>
+        <hr>
+
+        <h4 class="h4-main-sub"> Conceitos das tags: </h4>
+        <h4 class="h4-main-sub"> Tags estruturais:</h4>
+        <ol>
+            <li> <strong>&lthtml&gt: </strong> Define o início e o fim do documento HTML.</li>
+            <li> <strong>&lthead&gt: </strong> Contém metadados, como título e links para CSS.</li>
+            <li> <strong>&ltbody&gt: </strong> Contém o conteúdo visível da página.</li>
+            <li> <strong>&ltheader&gt, &ltmain&gt, &ltfooter&gt: </strong> Estruturas semânticas para cabeçalho, conteúdo principal e rodapé</li>
+        </ol>
+        <hr>
+        
+        <h4 class="h4-main-sub"> Tags de texto:</h4>
+        <ul>
+            <li> <strong>&lth1&gt a &lth6&gt: </strong> Títulos de diferentes níveis.</li>
+            <li> <strong>&ltp&gt: </strong>  Parágrafos de texto.</li>
+            <li> <strong>&ltstrong&gt: </strong> Texto em negrito.</li>
+            <li> <strong>&ltem&gt: </strong> Texto em itálico.</li>
+            <li> <strong>&ltbr&gt: </strong> Quebra de linha.</li>
+            <li> <strong>&lthr&gt: </strong>  Linha horizontal para separar conteúdo.</li>
+        </ul>
+        <hr>
+
+        <h4 class="h4-main-sub"> Tags de mídia:</h4>
+        <ul>
+            <li> <strong>&ltimg&gt: </strong> Insere imagens.</li>
+            <li> <strong>&ltvideo&gt: </strong>  Insere vídeos.</li>
+            <li> <strong>&ltaudio&gt: </strong>  Insere áudio.</li>
+            <li> <strong>&ltiframe&gt: </strong> Incorpora conteúdo de outras páginas.</li>
+        </ul>
+        <hr>
+
+        <h4 class="h4-main-sub"> Tags de links e listas:</h4>
+        <ul>
+            <li> <strong>&lta&gt: </strong> Cria links para outras páginas ou recursos.</li>
+            <li> <strong>&ltul&gt: </strong>  Lista não ordenada (com marcadores).</li>
+            <li> <strong>&ltol&gt: </strong>  Lista ordenada (numerada).</li>
+            <li> <strong>&ltli&gt: </strong> Itens de lista.</li>
+        </ul>
+        <hr>
+
+        <h4 class="h4-main-sub"> Tags de formulários:</h4>
+        <ul>
+            <li> <strong>&ltform&gt: </strong> Define um formulário.</li>
+            <li> <strong>&ltinput&gt: </strong>  Campos de entrada (texto, senha, etc.).</li>
+            <li> <strong>&lttextarea&gt: </strong>  Área de texto multilinha.</li>
+            <li> <strong>&ltbutton&gt: </strong> Botões clicáveis.</li>
+        </ul>
+        <hr>
+
+        <h4 class="h4-main-sub"> Tags de tabelas:</h4>   
+        <ul>
+            <li> <strong>&lttable&gt: </strong> Define uma tabela.</li>
+            <li> <strong>&lttr&gt: </strong>  Define uma linha na tabela.</li>
+            <li> <strong>&lttd&gt: </strong>  Define uma célula de dados.</li>
+            <li> <strong>&ltth&gt: </strong> Define uma célula de cabeçalho.</li>
+        </ul>
+        <hr>
+
+        <h4 class="h4-main-sub">Tags de lista: </h4>
+        <ul>
+            <li><strong>&ltul&gt:</strong> Cria uma lista não ordenada (com marcadores).</li>
+        </ul>
+        <p class="exemplo"> <strong>Exemplo:</strong></p>
+        <textarea rows="6" cols="70" readonly>
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+        </textarea>
+        <p class="resultado"> <strong>Resultado:</strong></p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <hr>
+
+        <ul>
+            <li><strong>&ltol&gt:</strong> Cria uma lista ordenada (numerada).</li>
+        </ul>
+
+        <p class="exemplo"> <strong>Exemplo:</strong></p>
+        <textarea rows="6" cols="70" readonly>
+<ol>
+    <li>Primeiro</li>
+    <li>Segundo</li>
+    <li>Terceiro</li>
+</ol>
+        </textarea>
+
+        <p class="resultado"> <strong>Resultado:</strong></p>
+        <ol>
+            <li>Primeiro</li>
+            <li>Segundo</li>
+            <li>Terceiro</li>
+        </ol>
+        <hr>
+
+        <ul>
+            <li><strong>&ltli&gt:</strong> Define um item de lista.</li>
+        </ul>
+        
+        <p class="exemplo"> <strong>Exemplo:</strong></p>
+        <textarea rows="6" cols="70" readonly>
+<ul>
+    <li>Item A</li>
+    <li>Item B</li>
+</ul>
+        </textarea>
+
+        <p class="resultado"> <strong>Resultado:</strong></p>
+        <ul>
+            <li>Item A</li>
+            <li>Item B</li>
+        </ul>
+        <hr>
+        
+        <ul>
+            <li><strong>&ltdl&gt:</strong> Cria uma lista de definição.</li>
+        </ul>
+
+        <p class="exemplo"> <strong>Exemplo:</strong></p>
+        <textarea rows="8" cols="70" readonly>
+<dl>
+    <dt>HTML</dt>
+    <dd>Linguagem de Marcação de Hipertexto</dd>
+    <dt>CSS</dt>
+    <dd>Folhas de Estilo em Cascata</dd>
+</dl>
+        </textarea>
+        <p class="resultado"> <strong>Resultado:</strong></p>
+
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de Marcação de Hipertexto</dd>
+            <dt>CSS</dt>
+            <dd>Folhas de Estilo em Cascata</dd>
+        </dl>
+        
+        <textarea rows="4" cols="150" readonly class="atencao-box">
+ATENÇÃO!
+    &ltdt&gt:efine um termo em uma lista de definição.
+    &ltdd&gt:Define a descrição de um termo em uma lista de definição.
+        </textarea>
+
+        <hr>
+        <h4 class="h4-main-sub">Sintex basica: </h4>
+        <p> Uma tag de abertura, seguida pelo conteúdo, e depois uma tag de fechamento. Exemplo: &ltp&gtEste é um parágrafo.&lt/p&gt.<br>
+        Algumas tags são auto-fechadas, como &ltimg src="imagem.jpg" alt="Descrição"&gt;.</p>
+        <hr>
+
+        <h4 class="h4-main-sub">Tipos de comentarios: </h4>
+        <p> Comentários em HTML são inseridos entre &lt!-- e --&gt. Exemplo: &lt!-- Este é um comentário --&gt.<br>
+        Comentários não são exibidos no navegador e são usados para explicar o código ou deixar notas para outros desenvolvedores.</p>
+        <hr>
+
+        <h4 class="h4-main-sub">Tipos de cabeçalho: </h4>
+        <ul>
+            <li> <strong>&lth1&gt a &lth6&gt: </strong> Títulos de diferentes níveis.</li>
+            <li> <strong>&lth2&gt: </strong> Subtítulo, menos importante que &lth1&gt.</li>
+            <li> <strong>&lth3&gt: </strong> Subtítulo de terceiro nível.</li>
+            <li> <strong>&lth4&gt: </strong> Subtítulo de quarto nível.</li>
+            <li> <strong>&lth5&gt: </strong> Subtítulo de quinto nível.</li>
+            <li> <strong>&lth6&gt: </strong> Subtítulo de sexto nível, o menos importante.</li>
+        </ul>
+        <hr>
+
+        <h4 class="h4-main-sub"> O que é tag semânticas: </h4>
+        <p> Tags semânticas são elementos HTML que descrevem claramente o significado do conteúdo que envolvem. Elas ajudam a estruturar a página de forma lógica e facilitam a compreensão tanto para desenvolvedores quanto para mecanismos de busca e tecnologias assistivas.<br>
+        Exemplos de tags semânticas incluem &ltheader&gt (cabeçalho da página), &ltnav&gt (navegação), &ltmain&gt (conteúdo principal), &ltarticle&gt (artigo independente), &ltsection&gt (seção do documento), &ltaside&gt (conteúdo complementar) e &ltfooter&gt (rodapé).</p>
+        <hr>
+
+        <h4 class="h4-main-sub"> Por que usar tag semânticas: </h4>
+        <ul>
+            <li> Melhoram a acessibilidade, facilitando a navegação para usuários com deficiências;</li>
+            <li> Ajudam os motores de busca a entenderem melhor o conteúdo da página, melhorando o SEO;</li>
+            <li> Tornam o código mais legível e fácil de manter para desenvolvedores;</li>
+            <li> Promovem boas práticas de desenvolvimento web, alinhando-se aos padrões da web;</li>
+        </ul>
+        <hr>
+
+        <h4 class="h4-main-sub"> Diferença entre tag semânticas e não semânticas: </h4>
+        <ul>
+            <li><strong>Tags semânticas</strong>, como &ltheader&gt, &ltarticle&gt e &ltfooter&gt, fornecem significado ao conteúdo que envolvem, indicando sua função na estrutura da página. Elas ajudam na organização lógica do conteúdo e melhoram a acessibilidade e SEO;</li>
+            <li><strong>Tags não semânticas</strong>, como &ltdiv&gt e &ltspan&gt, não fornecem nenhum significado específico sobre o conteúdo. Elas são usadas principalmente para fins de estilo ou agrupamento de elementos, sem indicar a função ou importância do conteúdo dentro da página.</li>
+        </ul>
+        <hr>
+
+        <h4 class="h4-main-sub">
+            Utilização de link:
+        </h4>
+        <p>A tag <strong>&lta&gt</strong> é usada para criar links em HTML. Ela pode ser utilizada para vincular a outras páginas, arquivos, endereços de e-mail ou até mesmo para navegar dentro da mesma página.</p>
+        <ul>
+            <li>Exemplo de link para <strong>outra página:</strong></li>
+        </ul>
+        <textarea rows="2" cols="70" readonly>
+&lta href="https://www.exemplo.com"&gtVisite o Exemplo&lt/a&gt
+        </textarea>
+
+        <ul>
+            <li>Exemplo de link para <strong>pagina interna</strong>:</li>
+        </ul>
+        <textarea rows="2" cols="70" readonly>
+&lta href="#secao1"&gtIr para Seção 1&lt/a&gt
+        </textarea>
+        <hr>
+
+        <h4 class="h4-main-sub">
+                Inserção de imagem:
+        </h4>
+        <p> A tag <strong>&ltimg&gt</strong> é usada para inserir imagens em uma página HTML. Ela é uma tag auto-fechada, o que significa que não requer uma tag de fechamento separada. A tag &ltimg&gt utiliza atributos para definir a fonte da imagem, texto alternativo e outras propriedades.<br>
+        <strong>Exemplo de uso da tag &ltimg&gt:</strong>  <br>
+        <textarea rows="3" cols="70" readonly>
+&ltimg src="caminho/para/imagem.jpg" alt="Descrição da imagem" width="300" height="200"&gt
+        </textarea>
+
+        <ul>
+            <li><strong>src</strong> : Especifica o caminho para o arquivo de imagem.</li>
+            <li><strong>alt</strong>: Fornece uma descrição alternativa da imagem, importante para acessibilidade.</li>
+            <li><strong>width</strong>: Definem a largura e altura da imagem em pixels (opcional).</li>
+        </ul>
+        <hr>
+
+        <h4 class="h4-main-sub">
+                Inserção de vídeo:
+        </h4>
+        <p> A tag <strong>&ltvideo&gt</strong> é usada para incorporar vídeos em uma página HTML. Ela permite que você defina várias fontes de vídeo, controles de reprodução e outras propriedades para melhorar a experiência do usuário.<br>
+        <strong>Exemplo de uso da tag &
